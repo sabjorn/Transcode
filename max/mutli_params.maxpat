@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 83.0, 128.0, 557.0, 316.0 ],
+		"rect" : [ 47.0, 106.0, 557.0, 316.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 373.0, 115.0, 171.0, 18.0 ],
-					"text" : "0.09 0.55 0.94 0.79 0.58 0.87"
+					"text" : "0. 0. 0. 0. 0.493219 0."
 				}
 
 			}
@@ -48,7 +48,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "float" ],
 					"patching_rect" : [ 84.0, 5.0, 25.0, 25.0 ]
 				}
 
@@ -91,8 +91,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 23.0, 195.0, 269.0, 20.0 ],
-					"text" : "join 6 @triggers -1"
+					"patching_rect" : [ 23.0, 245.0, 269.0, 20.0 ],
+					"text" : "pack 0. 0. 0. 0. 0. 0."
 				}
 
 			}
@@ -106,7 +106,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 273.0, 161.0, 50.0, 20.0 ]
+					"patching_rect" : [ 273.0, 183.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -120,7 +120,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 223.0, 161.0, 50.0, 20.0 ]
+					"patching_rect" : [ 223.0, 183.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -134,7 +134,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 173.0, 161.0, 50.0, 20.0 ]
+					"patching_rect" : [ 173.0, 183.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -148,7 +148,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 123.0, 161.0, 50.0, 20.0 ]
+					"patching_rect" : [ 123.0, 183.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -162,7 +162,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 73.0, 161.0, 50.0, 20.0 ]
+					"patching_rect" : [ 73.0, 183.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -176,7 +176,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 23.0, 161.0, 50.0, 20.0 ]
+					"patching_rect" : [ 23.0, 183.0, 50.0, 20.0 ]
 				}
 
 			}
