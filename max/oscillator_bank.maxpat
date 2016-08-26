@@ -36,22 +36,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 44.0, 224.0, 42.0, 20.0 ],
-					"text" : "*~ 0.8"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 204.0, 120.570221, 47.0, 20.0 ],
-					"text" : "adc~ 1"
+					"patching_rect" : [ 44.0, 224.0, 49.0, 20.0 ],
+					"text" : "*~ 0.85"
 				}
 
 			}
@@ -64,7 +50,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 151.5, 149.0, 36.0, 20.0 ],
+					"patching_rect" : [ 171.75, 148.0, 36.0, 20.0 ],
 					"text" : "*~ 2."
 				}
 
@@ -78,7 +64,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 151.5, 120.570221, 46.0, 20.0 ],
+					"patching_rect" : [ 171.75, 119.570221, 46.0, 20.0 ],
 					"text" : "rect~"
 				}
 
@@ -89,11 +75,11 @@
 					"fontsize" : 12.0,
 					"id" : "obj-160",
 					"maxclass" : "newobj",
-					"numinlets" : 5,
+					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 44.0, 185.570221, 108.0, 20.0 ],
-					"text" : "selector~ 4"
+					"patching_rect" : [ 44.0, 185.570221, 70.0, 20.0 ],
+					"text" : "selector~ 3"
 				}
 
 			}
@@ -106,7 +92,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 52.5, 120.570221, 45.0, 20.0 ],
+					"patching_rect" : [ 72.75, 119.570221, 45.0, 20.0 ],
 					"text" : "cycle~"
 				}
 
@@ -120,7 +106,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 95.0, 89.0, 54.0, 20.0 ],
+					"patching_rect" : [ 115.25, 83.0, 54.0, 20.0 ],
 					"text" : "phasor~"
 				}
 
@@ -134,7 +120,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 95.0, 120.570221, 57.0, 20.0 ],
+					"patching_rect" : [ 115.25, 119.570221, 57.0, 20.0 ],
 					"text" : "triangle~"
 				}
 
@@ -168,7 +154,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "",
-					"comment" : "reset",
+					"comment" : "phase",
 					"id" : "obj-51",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -286,15 +272,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-51", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-160", 4 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-6", 0 ]
 				}
 
 			}
