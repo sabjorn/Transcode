@@ -307,7 +307,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 654.0, 36.0, 25.0, 25.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ]
@@ -1249,7 +1249,7 @@
 					"patching_rect" : [ 357.0, 343.0, 600.0, 33.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"text" : "jit.gl.render lissajous @depth_enable 0 @camera 0. 0. 3. @fsaa 1 @blend_enable 1 @erase_color 0. 0. 0. 0.1 @accelerated 1 @quality 1.",
+					"text" : "jit.gl.render lissajous @depth_enable 0 @camera 0. 0. 4. @fsaa 1 @blend_enable 1 @erase_color 0. 0. 0. 0.1 @accelerated 1 @quality 1.",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 0
 				}
