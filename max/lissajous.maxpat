@@ -31,6 +31,47 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"background" : 0,
+					"comment" : "oscillator 2",
+					"hidden" : 0,
+					"id" : "obj-10",
+					"ignoreclick" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 138.5, 50.0, 25.0, 25.0 ],
+					"presentation" : 0,
+					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 0,
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 0,
+					"id" : "obj-3",
+					"ignoreclick" : 0,
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 133.0, 118.0, 36.0, 20.0 ],
+					"presentation" : 0,
+					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"text" : "*~ 1.",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 0,
 					"bgcolor" : [ 0.867, 0.867, 0.867, 1.0 ],
 					"bgcolor2" : [ 0.867, 0.867, 0.867, 1.0 ],
 					"fontface" : 0,
@@ -264,7 +305,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 109.0, 118.0, 36.0, 20.0 ],
+					"patching_rect" : [ 89.0, 118.0, 36.0, 20.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "*~ 1.",
@@ -414,7 +455,7 @@
 				"box" : 				{
 					"align" : 0,
 					"arrowcolor" : [ 0.22, 0.22, 0.22, 1.0 ],
-					"attr" : "draw_mode",
+					"attr" : "depth_enable",
 					"attr_display" : 0,
 					"attrfilter" : [ "none" ],
 					"background" : 0,
@@ -1173,10 +1214,10 @@
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 36.5, 555.0, 590.0, 19.0 ],
+					"patching_rect" : [ 33.0, 552.0, 562.0, 19.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"text" : "jit.gl.mesh lissajous @color 0. 1. 0. 0.8 @draw_mode points @blend_enable 1 @smooth_shading 1 @antialias 1",
+					"text" : "jit.gl.mesh liss @color 0. 1. 0. 0.8 @draw_mode points @blend_enable 1 @smooth_shading 1 @antialias 1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 0
 				}
@@ -1197,10 +1238,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 857.5, 145.5, 291.0, 20.0 ],
+					"patching_rect" : [ 857.5, 145.5, 262.0, 20.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"text" : "jit.window lissajous @size 1920 1080 @fsmenubar 0",
+					"text" : "jit.window liss @size 1920 1080 @fsmenubar 0",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 0
 				}
@@ -1246,10 +1287,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 357.0, 343.0, 600.0, 33.0 ],
+					"patching_rect" : [ 357.0, 344.0, 572.0, 33.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"text" : "jit.gl.render lissajous @depth_enable 0 @camera 0. 0. 4. @fsaa 1 @blend_enable 1 @erase_color 0. 0. 0. 0.1 @accelerated 1 @quality 1.",
+					"text" : "jit.gl.render liss @depth_enable 0 @camera 0. 0. 4. @fsaa 1 @blend_enable 1 @erase_color 0. 0. 0. 0.1 @accelerated 1 @quality 1.",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 0
 				}
@@ -1311,13 +1352,13 @@
 					"id" : "obj-13",
 					"ignoreclick" : 0,
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 33.0, 164.5, 124.0, 20.0 ],
+					"patching_rect" : [ 45.0, 268.0, 124.0, 20.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"text" : "jit.catch~ 2 @mode 0",
+					"text" : "jit.catch~ 3 @mode 0",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 0
 				}
@@ -1400,6 +1441,16 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"color" : [ 0.8, 0.8, 0.8, 0.9 ],
 					"destination" : [ "obj-19", 0 ],
@@ -1566,6 +1617,16 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+					"destination" : [ "obj-13", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
