@@ -731,7 +731,7 @@
 					"outlettype" : [ "float", "signal", "signal", "signal" ],
 					"patching_rect" : [ 36.25, 367.535156, 503.75, 121.211792 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.5, 435.535156, 508.0, 121.211792 ]
+					"presentation_rect" : [ 20.5, 435.535156, 738.875, 121.211792 ]
 				}
 
 			}
