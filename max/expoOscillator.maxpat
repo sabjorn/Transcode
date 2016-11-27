@@ -279,9 +279,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "float", "float" ],
+					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 111.0, 121.0, 32.5, 20.0 ],
-					"text" : "t f f"
+					"text" : "t i i"
 				}
 
 			}
@@ -334,7 +334,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 30.0, 156.0, 100.0, 20.0 ],
+					"patching_rect" : [ 30.0, 155.0, 100.0, 20.0 ],
 					"text" : "counter 2 0 1000"
 				}
 
