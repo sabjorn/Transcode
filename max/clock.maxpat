@@ -9,6 +9,7 @@
 		}
 ,
 		"openrect" : [ 25.0, 69.0, 328.0, 255.0 ],
+		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -29,6 +30,18 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "change step",
+					"id" : "obj-2",
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 147.5, 5.0, 25.0, 25.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "clock step",
 					"id" : "obj-1",
 					"maxclass" : "outlet",
@@ -47,7 +60,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 104.0, 203.0, 46.5, 27.0 ],
+					"patching_rect" : [ 97.0, 207.0, 46.5, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 165.5, 47.0, 51.0, 27.0 ],
 					"text" : "step"
@@ -79,7 +92,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 140.5, 177.0, 162.0, 20.0 ],
+					"patching_rect" : [ 133.5, 181.0, 162.0, 20.0 ],
 					"text" : "counter persists on/off toggle"
 				}
 
@@ -170,7 +183,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 104.0, 175.5, 41.0, 27.0 ],
+					"patching_rect" : [ 97.0, 179.5, 41.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 124.0, 47.0, 41.0, 27.0 ],
 					"triscale" : 0.9
@@ -332,8 +345,16 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ]
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-164", 3 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+ ]
 	}
 
 }
