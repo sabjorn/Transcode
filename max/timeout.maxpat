@@ -66,7 +66,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 158.0, 275.717896, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 64.858948, 50.0, 20.0 ]
+					"presentation_rect" : [ 11.0, 64.858948, 81.0, 20.0 ]
 				}
 
 			}
@@ -108,7 +108,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 158.0, 159.788757, 64.0, 33.0 ],
+					"patching_rect" : [ 158.0, 159.788757, 65.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.0, 44.25, 95.0, 20.0 ],
 					"text" : "remaining (ms)"
@@ -245,7 +245,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 12.0, 217.0, 109.0, 20.0 ],
-					"text" : "if $i1 <= $i2 then 1"
+					"text" : "if $i1 >= $i2 then 1"
 				}
 
 			}
